@@ -7,7 +7,7 @@ Nuit de l'info
 
 Contexte
 
-Il s’agit de réaliser une interface dédiée aux "collectionneurs", dans le cadre du sujet national, leur permettant de :
+Il seagit de réaliser une interface dédiée aux "collectionneurs", dans le cadre du sujet national, leur permettant de :
 
 - lister l'ensemble de leurs items
 
@@ -22,16 +22,16 @@ Elements attendus
 
 Interface
 
-C’est à vous de déterminer les fonctions de l’API à réaliser pour répondre aux besoins. Les fonctionnalités développées  pourront être :
+Ceest à vous de déterminer les fonctions de leAPI à réaliser pour répondre aux besoins. Les fonctionnalités développées  pourront être :
 
     Créer groupe
-    Créer / Modifier / Supprimer les items d’un groupe
-    Afficher ses propres groupes (un groupe = un ensemble d’items)
+    Créer / Modifier / Supprimer les items deun groupe
+    Afficher ses propres groupes (un groupe = un ensemble deitems)
     Moteur de recherche sur les groupes (sur le nom, mots-clefs, catégories)
-    Recherche d’un item dans un groupe
+    Recherche deun item dans un groupe
     Noter un groupe
-    S’abonner / se désabonner à un groupe
+    Seabonner / se désabonner à un groupe
     Créer / Modifier / Supprimer compte collectionneur
     Modifier / Supprimer groupe
     Rechercher un compte collectionneur
-    Afficher les groupes d’un collectionneur
+    Afficher les groupes deun collectionneur
