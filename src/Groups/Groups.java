@@ -9,7 +9,7 @@ public class Groups {
 	private String name;
 	private ArrayList<Item> listItem;
 	private ArrayList<String> keyword;
-	private ArrayList<String> Categorie;
+	private ArrayList<String> categorie;
 
 	public ArrayList<Item> getlistItem() {
 		return listItem;
@@ -44,10 +44,10 @@ public class Groups {
 	}
 
 	public ArrayList<String> getCategorie() {
-		return Categorie;
+		return categorie;
 	}
 
 	public void setCategorie(ArrayList<String> categorie) {
-		Categorie = categorie;
+		this.categorie = categorie;
 	}
 }
