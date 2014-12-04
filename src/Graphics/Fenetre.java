@@ -16,9 +16,14 @@ public class Fenetre extends JFrame {
 		super("Collectionneur");
 		width = 1024;
 		height = 600;
-
 		this.setSize(new Dimension((int) width, (int) height));
 		this.setFocusable(true);
+
+		PanelPerson person = new PanelPerson(this);
+		this.add(person);
+
+		// PanelItem item = new PanelItem(this);
+		// this.add(item);
 
 		this.setVisible(true);
 		this.setResizable(false);
@@ -27,6 +32,5 @@ public class Fenetre extends JFrame {
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// this.setIconImage(Toolkit.getDefaultToolkit().getImage(
 		// Fenetre.resourceDirectory + "Images/Pions/rouge.png"));
-
 	}
 }
