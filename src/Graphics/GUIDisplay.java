@@ -1,7 +1,5 @@
 package Graphics;
 
-import gui.Cube3D.View3D;
-
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Menu;
@@ -11,19 +9,14 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.util.List;
-
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-import Workshop.Display;
-import Workshop.Instruction;
-import Workshop.ApplicationPolling;
-
 /**
  * Graphical implementation of the display
  * 
- * @author Clement
+ * @author ochiers
  * 
  */
 public class GUIDisplay extends JFrame implements Display, ActionListener {
